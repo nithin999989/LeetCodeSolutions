@@ -1,15 +1,15 @@
-public class Solution {
-    public int[] twoSum(int[] numbers, int target) {
-        HashMap<Integer,Integer> indexMap = new HashMap<Integer,Integer>();
-        for(int i = 0; i < numbers.length; i++){
-            Integer requiredNum = (Integer)(target - numbers[i]);
-            if(indexMap.containsKey(requiredNum)){
-                int toReturn[] = {indexMap.get(requiredNum), i};
-                return toReturn;
-            }
-
-            indexMap.put(numbers[i], i);
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
+        for(int i=0;i<nums.length;i++){
+            map.put(nums[i],i);
         }
-        return null;
+        for(int i=0;i<nums.length;i++){
+            int complement=target-nums[i];
+            if(map.containsKey(complement) && map.get(complement)!=i){
+                return new int[] { map.get(complement),i  };
+            }
+        }throw new IllegalArgumentException("No solution");
+        
     }
 }
