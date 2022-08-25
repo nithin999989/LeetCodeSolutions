@@ -19,14 +19,9 @@ class Solution:
                     break
                 else:
                     v=s[i:j+1]
-                    # print(v)
                     if len(v)>maxi:
                         maxi=len(v)
-                    # if v[-1] == s[-1]:
-                    #     ll.append(len(v))
-                    #     break
             ll.append(maxi)
             if flag==0:
                 ll.append(len(v))
-    # res=max(ll)
         return max(ll)
