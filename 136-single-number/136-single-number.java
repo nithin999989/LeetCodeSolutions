@@ -7,6 +7,7 @@ class Solution {
             if(arr[i]!=arr[i+1]){
                 return arr[i];
             }
+            // we can do it by storing numbers in hashmap also but it will take extra space then
             
        
     }return arr[arr.length-1];
