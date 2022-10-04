@@ -7,7 +7,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | 1   | Two Sum                                                 | https://leetcode.com/problems/two-sum/                                                 |
 | 17  | Letter Combinations                                     | https://leetcode.com/problems/letter-combinations-of-a-phone-number/                   |
 | 34  | Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |
-| 52  | N-Queens II | https://leetcode.com/problems/n-queens-ii/ |
+| 52  | N-Queens II                                             | https://leetcode.com/problems/n-queens-ii/                                             |
+| 2278| Percent of letter in a String                           | https://leetcode.com/problems/percentage-of-letter-in-string/                          |
 
 This repository consists of all leetcode solutions keep contributing to this project
 
