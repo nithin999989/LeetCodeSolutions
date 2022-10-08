@@ -1,52 +1,41 @@
-class Solution
-{
-public
-    int[] searchRange(int[] nums, int target)
-    {
-        int[] res = new int[]{-1, -1};
-        if (nums.length == 0)
-            return res;
-        int start = 0, end = nums.length - 1;
-
-        while (start < end)
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        vector<int> v;
+        if(nums.size()==0)
         {
-            int mid = start + (end - start) / 2;
-
-            if (nums[mid] >= target)
+            v.push_back(-1);
+            v.push_back(-1);
+            return v;
+            
+        }
+        auto it=find(nums.begin(),nums.end(),target);
+        if(it==nums.end())
+        {
+              v.push_back(-1);
+            v.push_back(-1);
+            return v;
+        }
+        for(int i=0;i<nums.size();i++)
+        {
+            if(nums[i]==target)
+                
             {
-                end = mid;
-            }
-            else
-            {
-                start = mid + 1;
+                v.push_back(i);
+                break;
+                
             }
         }
-
-        if (nums[start] != target)
+        for(int i=nums.size()-1;i>=0;i--)
         {
-            return res;
-        }
-
-        res[0] = start;
-
-        end = nums.length;
-
-        while (start < end)
-        {
-            int mid = start + (end - start) / 2;
-
-            if (nums[mid] > target)
+            if(nums[i]==target)
             {
-                end = mid;
-            }
-            else
-            {
-                start = mid + 1;
+                v.push_back(i);
+                break;
+                
             }
         }
-
-        res[1] = start - 1;
-
-        return res;
+        return v;
+        
     }
-}
+};
