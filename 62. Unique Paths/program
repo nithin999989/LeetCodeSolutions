@@ -1,0 +1,43 @@
+class Solution {
+    
+        static int[][] dp;
+        static int Util(int row,int col,boolean[][] visited,int a,int b){
+            
+            if(dp[row][col] != -1)
+                return dp[row][col];
+                
+            if(row == a-1 && col == b-1)
+                return dp[row][col] = 1;
+            
+            int down = 0,right = 0;
+            
+            if(row+1<a && visited[row+1][col] == false){
+                visited[row+1][col] = true;
+                down = Util(row+1,col,visited,a,b);
+                visited[row+1][col] = false;
+            }
+            
+            
+            if(col+1<b && visited[row][col+1] == false){
+                visited[row][col+1] = true;
+                right = Util(row,col+1,visited,a,b);
+                visited[row][col+1] = false;
+            }
+            return dp[row][col] = (down+right);
+        }
+    
+    public int uniquePaths(int a, int b) {
+        boolean[][] visited = new boolean[a][b];
+        visited[0][0] = true;
+        
+        dp = new int[a][b];
+        
+        for(int i=0;i<a;i++){
+            for(int j=0;j<b;j++)
+                dp[i][j] = -1;
+        }
+        
+        
+        return Util(0,0,visited,a,b);
+    }
+}
