@@ -38,6 +38,26 @@ https://leetcode.com/problems/two-sum/
 
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
+4:  Median of Two Sorted Arrays
+
+https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+5: Longest Palindromic Substring
+
+https://leetcode.com/problems/longest-palindromic-substring/
+
+9: Palindrome Number
+
+https://leetcode.com/problems/palindrome-number/
+
+11: Container With Most Water
+
+https://leetcode.com/problems/container-with-most-water/
+
+13: Roman to Integer
+
+https://leetcode.com/problems/roman-to-integer/
+
 23: Merge K sorted Linked Lists
 
 https://leetcode.com/problems/merge-k-sorted-lists/
