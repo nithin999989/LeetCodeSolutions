@@ -12,6 +12,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | 41   | First Missing Positive                                  | https://leetcode.com/problems/first-missing-positive/                                  |
 | 52   | N-Queens II                                             | https://leetcode.com/problems/n-queens-ii/                                             |
 | 58   | Length of Last Word                                     | https://leetcode.com/problems/length-of-last-word/                                     |
+| 95   | Unique Binary Search Trees                              | https://leetcode.com/problems/unique-binary-search-trees/                              |
+| 96   | Unique Binary Search Trees                              | https://leetcode.com/problems/unique-binary-search-trees-ii/                           |
 | 100  | Same Tree                                               | https://leetcode.com/problems/same-tree/                                               |
 | 258  | Add Digits                                              | https://leetcode.com/problems/add-digits/                                              |
 | 278  | First Bad Version                                       | https://leetcode.com/problems/first-bad-version/                                       |
