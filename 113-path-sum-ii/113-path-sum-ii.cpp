@@ -12,6 +12,9 @@
 class Solution {
 public:
     void dfs(TreeNode* root, int k,vector<vector<int>> &res,vector<int> path ){
+        
+        if(root==NULL)return ;
+        
         path.push_back(root->val);
 //         leaf
         if(!root->left and !root->right){
