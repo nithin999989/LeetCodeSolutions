@@ -7,11 +7,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | 1    | Two Sum                                                 | https://leetcode.com/problems/two-sum/                                                 |
 | 4    | Median of Two Sorted Arrays                             | https://leetcode.com/problems/median-of-two-sorted-arrays/                             |
 | 17   | Letter Combinations                                     | https://leetcode.com/problems/letter-combinations-of-a-phone-number/                   |
+| 30   | Substring with Concatenation of All Words               | https://leetcode.com/problems/substring-with-concatenation-of-all-words/               |
 | 34   | Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |
 | 37   | Sudoku Solver                                           | https://leetcode.com/problems/sudoku-solver/                                           |
 | 41   | First Missing Positive                                  | https://leetcode.com/problems/first-missing-positive/                                  |
 | 52   | N-Queens II                                             | https://leetcode.com/problems/n-queens-ii/                                             |
 | 58   | Length of Last Word                                     | https://leetcode.com/problems/length-of-last-word/                                     |
+| 95   | Unique Binary Search Trees                              | https://leetcode.com/problems/unique-binary-search-trees/                              |
+| 96   | Unique Binary Search Trees                              | https://leetcode.com/problems/unique-binary-search-trees-ii/                           |
 | 100  | Same Tree                                               | https://leetcode.com/problems/same-tree/                                               |
 | 258  | Add Digits                                              | https://leetcode.com/problems/add-digits/                                              |
 | 278  | First Bad Version                                       | https://leetcode.com/problems/first-bad-version/                                       |
@@ -42,3 +45,9 @@ https://leetcode.com/problems/merge-k-sorted-lists/
 450: Delete Node In A BST
 
 https://leetcode.com/problems/delete-node-in-a-bst/
+
+297: Serialize And Deserialize Binary Tree
+
+https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
+
