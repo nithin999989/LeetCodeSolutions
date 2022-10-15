@@ -1,4 +1,13 @@
-# solutionss
+# Introduction
+
+Data Structures and Algorithms are very important for Interviews. Most of the top companies prefer to ask question related to DSA. Leetcode is a great platform to practice newer problems of DSA. It has many features like sorting questions based on difficulty level, different companies, etc. Practicing Questions are very important to get a strong hold on DSA.
+But what will happen if you stuck in the middle of a question?!
+That's where our solutions come to rescue :)
+We have tried to curate solutions for majority questions so that you could ace your interview rounds!
+** KEEP PRACTICING, KEEP LEARNING!! **
+
+
+# Solutions
 
 Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 
