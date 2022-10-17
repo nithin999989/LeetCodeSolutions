@@ -80,4 +80,6 @@ https://leetcode.com/problems/delete-node-in-a-bst/
 
 https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 
+543: Diameter of Binary Tree
 
+https://leetcode.com/problems/diameter-of-binary-tree/ 
