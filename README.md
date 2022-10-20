@@ -98,3 +98,6 @@ https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 543: Diameter of Binary Tree
 
 https://leetcode.com/problems/diameter-of-binary-tree/ 
+
+21: Merge Two Sorted Lists
+https://leetcode.com/problems/merge-two-sorted-lists/ 
