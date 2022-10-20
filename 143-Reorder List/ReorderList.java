@@ -1,60 +1,27 @@
- Strategy: Reverse the second half of the list and reconnect the nodes of the 2 lists.
- Time complexity: O(N)
-
-
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
- 
- /*
-
- 
- 
- 
 class Solution {
-    public ListNode reverse(ListNode head){
-        ListNode prev=null;
-        ListNode curr=head;
-        ListNode next=null;
-        while(curr!=null){
-            next=curr.next;
-            curr.next=prev;
-            prev=curr;
-            curr=next;
+public:
+    void reorderList(ListNode* head) {
+        if ((!head) || (!head->next) || (!head->next->next)) return; // Edge cases
+        
+        stack<ListNode*> my_stack;
+        ListNode* ptr = head;
+        int size = 0;
+        while (ptr != NULL) // Put all nodes in stack
+        {
+            my_stack.push(ptr);
+            size++;
+            ptr = ptr->next;
         }
-        return prev;
+        
+        ListNode* pptr = head;
+        for (int j=0; j<size/2; j++) // Between every two nodes insert the one in the top of the stack
+        {
+            ListNode *element = my_stack.top();
+            my_stack.pop();
+            element->next = pptr->next;
+            pptr->next = element;
+            pptr = pptr->next->next;
+        }
+        pptr->next = NULL;
     }
-    public ListNode middleNode(ListNode head){
-        ListNode slow = head;
-        ListNode fast = head;
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
-        }
-        return slow;
-    }
-    public void reorderList(ListNode head) {
-        ListNode h1 = head;
-        ListNode h2 = reverse(middleNode(head));
-        while(h1!=null && h2!=null){
-            ListNode temp =h1.next;
-            h1.next=h2;
-            h1=temp;
-            
-            temp=h2.next;
-            h2.next=h1;
-            h2=temp;
-        }
-        if(h1!=null){
-            h1.next=null;
-        }
-
-    }
-}
+};
