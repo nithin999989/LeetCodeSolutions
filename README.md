@@ -101,3 +101,6 @@ https://leetcode.com/problems/diameter-of-binary-tree/
 
 21: Merge Two Sorted Lists
 https://leetcode.com/problems/merge-two-sorted-lists/ 
+
+43: Multiply Strings
+https://leetcode.com/problems/multiply-strings/ 
