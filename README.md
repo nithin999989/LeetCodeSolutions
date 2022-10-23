@@ -38,6 +38,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | 130  | surrounded-regions                                      | https://leetcode.com/problems/surrounded-regions/                                      |
 | 134  | gas-station                                             | https://leetcode.com/problems/gas-station/                                             |
 | 136  | single-number                                           | https://leetcode.com/problems/psingle-number/                                          |
+| 153  | Find Minimum in Rotated Sorted Array                    | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |
+| 154  | Find Minimum in Rotated Sorted Array II                 | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/                 |
 | 198  | house-robber                                            | https://leetcode.com/problems/house-robber/                                            |
 | 217  | contains-duplicate                                      | https://leetcode.com/problems/contains-duplicate/                                      |
 | 258  | Add Digits                                              | https://leetcode.com/problems/add-digits/                                              |
