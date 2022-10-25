@@ -6,7 +6,6 @@ That's where our solutions come to rescue :)
 We have tried to curate solutions for majority questions so that you could ace your interview rounds!
 ** KEEP PRACTICING, KEEP LEARNING!! **
 
-
 # Solutions
 
 Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
@@ -22,11 +21,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | 20   | valid-parentheses                                       | https://leetcode.com/problems/valid-parentheses/                                       |
 | 30   | Substring with Concatenation of All Words               | https://leetcode.com/problems/substring-with-concatenation-of-all-words/               |
 | 34   | Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |
+| 35   | 35. Search Insert Position                              | https://leetcode.com/problems/search-insert-position/                                  |
 | 37   | Sudoku Solver                                           | https://leetcode.com/problems/sudoku-solver/                                           |
 | 41   | First Missing Positive                                  | https://leetcode.com/problems/first-missing-positive/                                  |
 | 42   | Trapping Rain Water                                     | https://leetcode.com/problems/trapping-rain-water/                                     |
 | 52   | N-Queens II                                             | https://leetcode.com/problems/n-queens-ii/                                             |
 | 58   | Length of Last Word                                     | https://leetcode.com/problems/length-of-last-word/                                     |
+| 81   | Search in Rotated Sorted Array II                       | https://leetcode.com/problems/search-in-rotated-sorted-array-ii/                       |
 | 95   | Unique Binary Search Trees                              | https://leetcode.com/problems/unique-binary-search-trees/                              |
 | 96   | Unique Binary Search Trees                              | https://leetcode.com/problems/unique-binary-search-trees-ii/                           |
 | 100  | Same Tree                                               | https://leetcode.com/problems/same-tree/                                               |
@@ -37,6 +38,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | 130  | surrounded-regions                                      | https://leetcode.com/problems/surrounded-regions/                                      |
 | 134  | gas-station                                             | https://leetcode.com/problems/gas-station/                                             |
 | 136  | single-number                                           | https://leetcode.com/problems/psingle-number/                                          |
+| 153  | Find Minimum in Rotated Sorted Array                    | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |
+| 154  | Find Minimum in Rotated Sorted Array II                 | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/                 |
+| 162  | Find Peak Element                                       | https://leetcode.com/problems/find-peak-element/                                       |
+| 167  | Two Sum II - Input Array Is Sorted                      | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/s                       |
 | 198  | house-robber                                            | https://leetcode.com/problems/house-robber/                                            |
 | 217  | contains-duplicate                                      | https://leetcode.com/problems/contains-duplicate/                                      |
 | 258  | Add Digits                                              | https://leetcode.com/problems/add-digits/                                              |
@@ -63,7 +68,7 @@ https://leetcode.com/problems/two-sum/
 
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
-4:  Median of Two Sorted Arrays
+4: Median of Two Sorted Arrays
 
 https://leetcode.com/problems/median-of-two-sorted-arrays/
 
@@ -97,10 +102,10 @@ https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 
 543: Diameter of Binary Tree
 
-https://leetcode.com/problems/diameter-of-binary-tree/ 
+https://leetcode.com/problems/diameter-of-binary-tree/
 
 21: Merge Two Sorted Lists
-https://leetcode.com/problems/merge-two-sorted-lists/ 
+https://leetcode.com/problems/merge-two-sorted-lists/
 
 43: Multiply Strings
-https://leetcode.com/problems/multiply-strings/ 
+https://leetcode.com/problems/multiply-strings/
