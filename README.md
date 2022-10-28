@@ -109,3 +109,12 @@ https://leetcode.com/problems/merge-two-sorted-lists/
 
 43: Multiply Strings
 https://leetcode.com/problems/multiply-strings/
+
+1838: Frequency of the most frequent element
+https://leetcode.com/problems/frequency-of-the-most-frequent-element/
+
+1854: Maximum population year
+https://leetcode.com/problems/maximum-population-year/
+
+1903: Largest odd number in string
+https://leetcode.com/problems/largest-odd-number-in-string/#:~:text=Return%20the%20largest%2Dvalued%20odd,%22%2C%20and%20%2252%22.
