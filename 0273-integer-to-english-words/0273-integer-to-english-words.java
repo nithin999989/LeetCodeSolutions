@@ -1,56 +1,39 @@
 class Solution {
-    private final String[] ones = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
-    private final String[] tens = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
-    private final String[] teens = {"", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
 
-    public String numberToWords(int num) {
-        if (num == 0) {
-            return "Zero";
-        }
+  private final String[] LESS_THAN_20 = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
 
-        StringBuilder result = new StringBuilder();
+  private final String[] TENS = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
 
-        // Handles groups of three digits (thousands, millions, billions)
-        int billion = num / 1_000_000_000;
-        num %= 1_000_000_000;
-        thousandsGroup(result, billion, "Billion");
+  private final String[] THOUSANDS = {"", "Thousand", "Million", "Billion"};
 
-        int million = num / 1_000_000;
-        num %= 1_000_000;
-        thousandsGroup(result, million, "Million");
-
-        int thousand = num / 1_000;
-        num %= 1_000;
-        thousandsGroup(result, thousand, "Thousand");
-
-        thousandsGroup(result, num, "");
-
-        return result.toString().trim();
+  public String numberToWords(int num) {
+    if (num == 0) {
+      return "Zero";
     }
 
-    private void thousandsGroup(StringBuilder result, int num, String placeValue) {
-        if (num == 0) {
-            return;
-        }
+    int i = 0;
+    String words = "";
 
-        if (num >= 100) {
-            int hundred = num / 100;
-            num %= 100;
-            result.append(ones[hundred]).append(" Hundred ");
-        }
-
-        if (num >= 11 && num <= 19) {
-            result.append(teens[num - 10]).append(" ");
-        } else if (num >= 10) {
-            int ten = num / 10;
-            num %= 10;
-            result.append(tens[ten]).append(" ");
-        }
-
-        if (num >= 1 && num <= 9) {
-            result.append(ones[num]).append(" ");
-        }
-
-        result.append(placeValue).append(" ");
+    while (num > 0) {
+      if (num % 1000 != 0) {
+        words = helper(num % 1000) +THOUSANDS[i] + " " + words;        
+      }
+      num /= 1000;
+      i++;
     }
+
+    return words.trim();
+  }
+  
+  private String helper(int num) {
+    if (num == 0) {
+      return "";
+    } else if (num < 20) {
+      return LESS_THAN_20[num] + " ";
+    } else if (num < 100) {
+      return TENS[num / 10] + " " + helper(num % 10);
+    } else {
+      return LESS_THAN_20[num / 100] + " Hundred " + helper(num % 100); 
+    }
+  }
 }
