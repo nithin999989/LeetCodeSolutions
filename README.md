@@ -42,10 +42,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | 154  | Find Minimum in Rotated Sorted Array II                 | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/                 |
 | 162  | Find Peak Element                                       | https://leetcode.com/problems/find-peak-element/                                       |
 | 167  | Two Sum II - Input Array Is Sorted                      | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/s                       |
+| 191 | 191. Number of 1 Bits                            |       | https://leetcode.com/problems/number-of-1-bits/ 
 | 198  | house-robber                                            | https://leetcode.com/problems/house-robber/                                            |
 | 217  | contains-duplicate                                      | https://leetcode.com/problems/contains-duplicate/                                      |
 | 258  | Add Digits                                              | https://leetcode.com/problems/add-digits/                                              |
-| 278  | First Bad Version                                       | https://leetcode.com/problems/first-bad-version/                                       |
+| 278  | First Bad Version                                       | https://leetcode.com/problems/first-bad-version/ 
+| 852  | Peak Index in a Mountain Array                  |       | https://leetcode.com/problems/peak-index-in-a-mountain-array/
 | 1207 | unique-number-of-occurrences                            | https://leetcode.com/problems/unique-number-of-occurrences/                            |
 | 1295 | find-num-with-even-digits                               | https://leetcode.com/problems/find-num-with-even-digits/                               |
 | 1302 | deepest-leaves-sum                                      | https://leetcode.com/problems/deepest-leaves-sum/                                      |
